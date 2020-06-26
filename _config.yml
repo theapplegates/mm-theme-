@@ -32,10 +32,11 @@ algolia:
   search_only_api_key: 699195d705e86ef3b3e5ca7e5333cdb5 # YOUR_SEARCH_ONLY_API_KEY
   powered_by: true # true (default), false
 settings:
-- title
-- headings
-- content
-- unordered(categories)
+ searchableAttributes:
+  - title
+  - headings
+  - content
+  - unordered(categories)
 
 
 # Build settings
